@@ -17,7 +17,7 @@ $nascimento = new DataTime();
 ////////////////////////////////////////////////
 
 // variável do tipo resource
-$arquivo = fopen("exemplo-3.php", "r");
+$arquivo = fopen("exemplo-2.php", "r");
 
 // var_dump($arquivo);
 

@@ -3,7 +3,7 @@
 // O include tem mais recursos, ele pode trazer arquivos do include path (uma pasta que você pode configurar), se não existir o diretório, ele vai lá nesse diretório e traz de lá. Isso é bom para projetos intranet
 // Include remote é um RISCO do INCLUDE porque ele permite que você traga arquivo de outro domínio
 
-// include "exemplo-1.php";
+// include "exemplo-2.php";
 
 // A diferença entre o include e require é que o require obriga que o arquivo exista e que ele esteja funcionando corretamente e o include não
 // BOA PRÁTICA: usar require
