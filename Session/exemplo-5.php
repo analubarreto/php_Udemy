@@ -21,3 +21,5 @@ switch(session_status()) {
         echo "Sessões habilitadas, e uma sessão existe";
         break;
 }
+
+// ...
