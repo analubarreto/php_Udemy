@@ -10,7 +10,7 @@ $bloqueio = false;
 $frutas = array("abacaxi", "laranja", "manga");
 echo $frutas[2];
 
-$nascimento = new DataTime();
+$nascimento = new DateTime();
 
 // var_dump($nascimento);
 
