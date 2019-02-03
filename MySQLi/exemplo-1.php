@@ -1,7 +1,7 @@
 <?php
 
 // acessar banco de dados
-$conn = new mysqli("localhost", "root", "15926535", dbphp7);
+$conn = new mysqli("localhost", "root", "15926535!Pi", dbphp7);
 
 if ($conn->connect_error) {
     echo "Error: ". $conn->connect_error;
