@@ -12,6 +12,16 @@ $stmt = $conn->prepare("INSERT INTO tb_usuarios (des_login, des_senha) VALUES(?,
 
 // primeiro parâmetro, tipos das interrogações (s de string, sem vírgula)
 // segundo parâmetro valores
-$stmt->bind_param("ss", "user", "12345");
+$stmt->bind_param("ss", $login, $pass);
+
+$login = "user";
+$pass = "12345";
+
+// carrega tudo isso e carrega no banco de dados
+$stmt->execute();
+
+// da pra fazer um for inserindo todos os nossos comandos, não precisa ficar repetindo o tempo todo
+$login = "root";
+$pass = "!@#$%";
 
 $stmt->execute();
